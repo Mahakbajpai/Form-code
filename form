@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <title>Registration form</title>
+   </head> 
+   <body>
+    <form action="/action.php">
+        <input type="text" placeholder="Enter full name">
+        <br>
+        <h5>Select your year</h5>
+        <br>
+        <label for="101">
+            <input type="radio"value="1st year"name="year"id="101">1st year
+        </label>
+        <label for="102">
+            <input type="radio"value="2nd year"name="year"id=102>2nd year
+        </label>
+        <label>
+            <input type="radio"value="3rd year"name="year"id=103>3rd year
+        </label>
+        <label>
+            <input type="radio"value="4th year"name="year"id=104>4th year
+        </label>
+        <br>
+        <h5>Select your semester</h5>
+        <select name="semester"id="semester">
+            <option value="semester-1">Semester-1</option>
+            <option value="semester-2">Semester-2</option>
+        </select>
+        <h5>What is your date of birth?</h5>
+        <label for="dob">Date of birth:</label>
+            <input type="date"id="dob"name="dob">
+          <br>
+          <h5>What is your hobby?</h5>
+          <input type="text"placeholder="enter your hobby">
+          <h5>What is your ambition?</h5>
+          <textarea name="ambition"placeholder="write about your ambition"rows=4></textarea>
+          <h5>What are your insecurities?</h5>
+          <textarea name="insecurities"placeholder="write about your insecurities"rows=5></textarea>
+        <h5>Do you like Mahak?</h5>
+        <label for="105">
+            <input type="radio"value="YES"name="yes"id=105>YES
+        </label>
+        <label for="106">
+            <input type="radio"value="NO"name="no"id=106>NO
+        </label>
+
+    </form>
+   </body>
+</html>
